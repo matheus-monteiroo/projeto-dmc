@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/imagens/favicon.jpg" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title>Devil May Cry - O Trailer</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/videoplayback.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/imagens/logo-dmc.png" alt="logo chapéu Mario" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Detalhes</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/15993_devil-may-cry-5-prev.png" alt="imagem do título do filme" />
+				<p class="descricao">O game é situado nos tempos modernos na torre encantada chamada Temen-ni-gru, a história gira em torno da relação conturbada entre Dante e seu irmão mais velho, Vergil. Tudo começa assim que o personagem principal abre sua agência, e antes da herança demoníaca dele atingir o potencial máximo.</p>
+				<button class="botao-trailer">Veja o trailer</button>
+			</div>
+			<img class="dmc" src="./src/imagens/vergil-char.webp" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video"  width="560" height="315" src="https://www.youtube.com/embed/jELlbJLx1XQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
